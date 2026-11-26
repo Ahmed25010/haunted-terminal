@@ -6,7 +6,7 @@ Implement a browser-based educational game that teaches Linux terminal commands 
 
 ## Tasks
 
-- [ ] 1. Scaffold project structure
+- [x] 1. Scaffold project structure
   - The workspace root already contains `LICENSE`, `README.md`, and `.kiro/`. Scaffold Vite in-place: run `npm create vite@latest . -- --template react` (the `.` targets the existing directory)
   . If asked about the non-empty directory, choose "Ignore files and continue". Never remove existing files. Do not start the dev server.
   - Install runtime dependencies: `npm install react react-dom`; install dev dependencies: `npm install -D vitest @vitest/coverage-v8 fast-check jsdom @vitejs/plugin-react`
