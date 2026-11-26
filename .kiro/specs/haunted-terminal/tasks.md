@@ -7,7 +7,8 @@ Implement a browser-based educational game that teaches Linux terminal commands 
 ## Tasks
 
 - [ ] 1. Scaffold project structure
-  - The workspace root already contains `LICENSE`, `README.md`, and `.kiro/`. Scaffold Vite in-place: run `npm create vite@latest . -- --template react` (the `.` targets the existing directory) and accept any prompts
+  - The workspace root already contains `LICENSE`, `README.md`, and `.kiro/`. Scaffold Vite in-place: run `npm create vite@latest . -- --template react` (the `.` targets the existing directory)
+  . If asked about the non-empty directory, choose "Ignore files and continue". Never remove existing files. Do not start the dev server.
   - Install runtime dependencies: `npm install react react-dom`; install dev dependencies: `npm install -D vitest @vitest/coverage-v8 fast-check jsdom @vitejs/plugin-react`
   - Create the directory tree: `src/engine/`, `src/levels/`, `src/services/`, `src/ui/`, `tests/unit/`, `tests/property/`
   - Add `vite.config.js` with `base: '/haunted-terminal/'`, React plugin, and Vitest config block pointing `testEnvironment` to `jsdom` for localStorage and progress-persistence tests; all other tests run in Node environment
